@@ -36,7 +36,7 @@ const AboutAndContactOffCanvas = () => {
                     Frameworks: 
                   </div>
                   <div className="">
-                    React, Angular, Svelte-kit (basic), Nuxt(basic), Bootstrap, Tailwind CSS
+                    React-Next.js, Angular, Svelte-kit, Vue3-Nuxt, Bootstrap, Tailwind CSS                
                   </div>
                 </li>         
                 <li className="d-flex flex-column mb-2">
