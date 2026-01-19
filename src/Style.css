@@ -76,6 +76,62 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.icon-hover:hover {
+  color: white !important
+}
+
+/* ////////////////////////////// Project modal ///////////////////////////////////////////////////////////////////////////////// */
+
+.list-group-item {cursor: pointer;}
+
+.project-modal {
+  background-color: #212529;
+  border: 0.1px solid rgba(255, 255, 255, 0.5);
+}
+
+.project-modal-header {
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.5);
+}
+
+.open-project-btn {
+  font-weight: bold;
+  border: 2px solid #198754;
+  margin-top: 2rem;
+}
+
+.open-project-btn {
+  position: relative;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.open-project-btn:hover {
+  border-color: #28a745; /* Green border color */
+}
+
+.open-project-btn:focus {
+  outline: none; /* Remove outline when focused */
+}
+
+.open-project-btn {
+  animation: pulse-border 1.5s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #28a745; /* Green border color */
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
 
 
 
@@ -104,7 +160,7 @@ footer {
   }
 
   .portfolio {
-    width: 50vw;
+    width: 37.5vw;
   }
   .email {
     width: 50vw;
@@ -165,7 +221,7 @@ footer {
   }
 
   .portfolio {
-    width: 33vw;
+    width: 32.5vw;
   }
 
 }
@@ -182,10 +238,18 @@ footer {
     background-color: rgb(42, 42, 42) !important;
     border: solid rgb(161, 161, 161) 2px;
   } 
+  .portfolio {
+    width: 25vw;
+  }
 } 
 
 /* // Extra large devices FHD (1900px and up) */
 @media (min-width: 1900px) {
+  body {
+    background-size: 45vw 90vh;
+    background-position-x: 0%;  
+  } 
+
   .headerSection {
     margin-top: 5rem !important;
   }
@@ -199,8 +263,8 @@ footer {
 
   .about-and-contact {
     z-index: 9999;
-    left: 20.9%;
-    top: 50%
+    left: 15.9%;
+    top: 40%
   }
 
   .contact {
@@ -220,12 +284,12 @@ footer {
   }
 
   .portfolio {
-    max-width: 25vw;
+    max-width: 20vw;
   }
 
-  .portfolio-body {
+  /* .portfolio-body {
     margin-top: 3rem !important;
-  }
+  } */
 
   header h1, h2 {
     font-size: 3rem !important;

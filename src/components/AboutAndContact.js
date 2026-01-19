@@ -53,10 +53,12 @@ const AboutAndContact = () => {
                 </li>
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold frameworks">Frameworks:</span>
-                  <span>
-                    React-Next.js, Angular, Svelte-kit, Vue3-Nuxt, Bootstrap, Tailwind CSS
-                  </span>
+                  <span>React-Next.js, Angular, Svelte-kit, Vue3-Nuxt, jQuery, Bootstrap, Tailwind CSS</span>
                 </li>
+                <li className="d-flex mt-1">
+                  <span className="me-2 fw-bold">Unit Testing:</span>
+                  <span>Jest, Vitest</span>
+                </li>                
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Design tools:</span>
                   <span>Figma, Webflow, MockFlow</span>
@@ -66,7 +68,7 @@ const AboutAndContact = () => {
                   <span>Squarespace</span>
                 </li>
                 <li className="d-flex mt-1">
-                  <span className="me-2 fw-bold">Database(basic):</span>
+                  <span className="me-1 fw-bold">Database:</span>
                   <span>Firebase, SQL (MySQL, SSMS)</span>
                 </li>
                 <li className="d-flex mt-1">
@@ -81,6 +83,10 @@ const AboutAndContact = () => {
                   <span className="me-2 fw-bold">Version control systems:</span>
                   <span>Git, GitHub, GitLab</span>
                 </li>
+                <li className="d-flex mt-1">
+                  <span className="me-2 fw-bold">Methodologies:</span>
+                  <span>AgilePM</span>
+                </li> 
               </ul>
             </div>
           </div>

@@ -36,7 +36,15 @@ const AboutAndContactOffCanvas = () => {
                     Frameworks: 
                   </div>
                   <div className="">
-                    React-Next.js, Angular, Svelte-kit, Vue3-Nuxt, Bootstrap, Tailwind CSS                
+                     React-Next.js, Angular, Svelte-kit, Vue3-Nuxt, jQuery, Bootstrap, Tailwind CSS
+                  </div>
+                </li> 
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Unit Testing: 
+                  </div>
+                  <div className="">
+                    Jest, Vitest
                   </div>
                 </li>         
                 <li className="d-flex flex-column mb-2">
@@ -87,14 +95,14 @@ const AboutAndContactOffCanvas = () => {
                     Git, GitHub, GitLab
                   </div>
                 </li>   
-                {/* <li className="d-flex flex-column mb-2">
+                <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
-                    IDE: 
+                    Methodologies: 
                   </div>
                   <div className="">
-                    VS Code
+                    AgilePM
                   </div>
-                </li>              */}
+                </li>              
               </ul>
             </div>
           </div>

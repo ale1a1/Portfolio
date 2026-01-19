@@ -33,7 +33,7 @@ const Header = () => {
             <i className="bi bi-envelope-open"></i>
           </button>
           <button
-            className="btn btn-lg btn-outline-danger text-uppercase fw-bold bg-dark2-transparent ms-4 mt-5 header-button-portfolio mt-lg-0 ms-lg-2 mt-lg-4"
+            className="btn btn-lg btn-outline-danger text-uppercase fw-bold bg-dark2-transparent col-2 col-lg-auto ms-4 mt-5 mt-lg-0 ms-lg-2 mt-lg-4"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#portfolio"

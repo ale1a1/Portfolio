@@ -11,7 +11,7 @@ const EmailOffCanvas = () => {
         aria-labelledby="offcanvasEmaillabel"        
       >
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title text-danger" id="offcanvasEmaillabel">
+          <h1 className="offcanvas-title ms-1 text-danger" id="offcanvasEmaillabel">
             Email me!
           </h1>
           <button

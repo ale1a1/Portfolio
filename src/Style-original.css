@@ -74,6 +74,21 @@ body {
   display: inline-block;
 }
 
+/* ////////////////////////////// portfolio project description modal ////////////////////////////// */
+.project-modal {
+  max-height: 90vh; /* Prevents modal from being taller than the viewport */
+  overflow: hidden;  /* Ensures that overflow is contained */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-modal .modal-body {
+  overflow-y: auto;  /* Enables vertical scrolling for overflowing content */
+  max-height: 60vh;  /* Adjust as needed */
+  padding-right: 10px; /* Avoids content getting hidden by scrollbar */
+}
+
+
 
 /* ////////////////////////////// header ////////////////////////////// */
 .headerContainer {
@@ -217,7 +232,7 @@ footer {
     font-size: 0.85rem;
   }
   .portfolio {
-    width: 100vw;
+    width: 50vw;
     height: 95vh;
   }
   .offCanvasInfoCard {

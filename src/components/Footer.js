@@ -15,28 +15,28 @@ const Footer = () => {
         </p>       
         <ul className="list-unstyled d-flex me-4 mt-1">
           <li className="mx-2 mx-lg-4">
-            <a href="https://www.instagram.com/ale1a184/" target="blank">
-              <i className="bi bi-instagram text-white-50"></i>
+            <a href="https://www.instagram.com" title="Instagram" target="blank">
+              <i className="bi bi-instagram text-white-50 icon-hover"></i>
             </a>
           </li>
           <li className="mx-2 mx-lg-4">
-            <a href="https://www.linkedin.com/in/alessandro-ladu-69196a239/" target="blank">
-              <i className="bi bi-linkedin text-white-50"></i>
+            <a href="https://www.linkedin.com/in/alessandro-ladu-69196a239/" title="Linkedin" target="blank">
+              <i className="bi bi-linkedin text-white-50 icon-hover"></i>
             </a>
           </li>
           <li className="mx-2 mx-lg-4">
-            <a href="https://github.com/ale1a1" target="blank">
-              <i className="bi bi-github text-white-50"></i>
+            <a href="https://github.com/ale1a1" title="GitHub" target="blank">
+              <i className="bi bi-github text-white-50 icon-hover"></i>
             </a>
           </li>
           <li className="mx-2 mx-lg-4">
-            <a href="https://www.youtube.com/" target="blank">
-              <i className="bi bi-youtube text-white-50"></i>
+            <a href="https://www.youtube.com/" title="Youtube" target="blank">
+              <i className="bi bi-youtube text-white-50 icon-hover"></i>
             </a>
           </li>         
           <li className="mx-2 mx-lg-4">
-            <a href="https://www.twitch.tv/" target="blank">
-              <i className="bi bi-twitch text-white-50 footerIcon"></i>
+            <a href="https://www.twitch.tv/" title="Twitch" target="blank">
+              <i className="bi bi-twitch text-white-50 footerIcon icon-hover"></i>
             </a>
           </li>
         </ul>
