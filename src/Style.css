@@ -1,5 +1,16 @@
 /* REMEMBER: DEFAULT CSS IS MOBILE SCREENS! */
+.about-and-contact { pointer-events: none; }
+.info-and-about-content { pointer-events: auto; }
+.navbar.fixed-top { z-index: 5000; }
 
+/* Footer icon hover */
+footer a i {
+  transition: color 0.2s ease-in-out;
+}
+
+footer a:hover i {
+  color: #ffffff !important;
+}
 
 .bg-grey-transparent {
   background-color: rgba(0, 0, 0, 0.550);
@@ -57,7 +68,7 @@ nav {
   width: 100vw;
   position: fixed;
   top:50%;
-  z-index: 300;
+  z-index: 9999;
 }
 
 footer {
@@ -140,7 +151,7 @@ footer {
   }
 
   .about-and-contact {
-    top: 40%;
+    top: 38%;
     left: 8.5%;
   }
 
@@ -166,7 +177,11 @@ footer {
   }
   header h1, h2 {
     font-size: 2.2rem !important;
-  }
+  } 
+  .info-and-about-content {
+    background-color: rgb(42, 42, 42) !important;
+    border: solid rgb(161, 161, 161) 1px;
+  } 
 } 
 
 /* // Extra large devices FHD (1900px and up) */
@@ -183,7 +198,7 @@ footer {
   }
 
   .about-and-contact {
-    z-index: 150;
+    z-index: 9999;
     left: 20.9%;
     top: 50%
   }
