@@ -1,7 +1,25 @@
 /* REMEMBER: DEFAULT CSS IS MOBILE SCREENS! */
 .about-and-contact { pointer-events: none; }
 .info-and-about-content { pointer-events: auto; }
-.navbar.fixed-top { z-index: 5000; }
+.navbar.fixed-top { z-index: 500; }
+
+/* Portal modal overlay: ALWAYS above navbar */
+.project-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 20000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+/* Ensure clicks reach the modal */
+.project-modal-overlay .modal-dialog,
+.project-modal-overlay .modal-content {
+  pointer-events: auto;
+}
 
 /* Footer icon hover */
 footer a i {
